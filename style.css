@@ -1,0 +1,45 @@
+h2{
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+}
+input{
+    padding:10px 15px;
+    font-size:large;   
+    font-weight:bold;
+    border-radius:30px;
+    border:none;
+}
+body{
+    background-color: #f3b8be;
+}
+#container{
+    font-weight:bold;
+    font-size:2rem; 
+    text-align:center;
+}
+button{
+    font-size:1rem;/* height - rem is less than e,*/
+    font-weight:bold; /*darkness*/
+    font-family: "sans-serif";;
+    padding : 10px 15px;
+    border-radius:15px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    background-color: #0a62abbc
+}
+button:hover{
+    background-color: #8ab8c580;
+    color:blue;
+}
+button:active{
+    background-color: #6110a480;/*when press by mouse*/
+    color:white;
+}
+#diceimage img{
+    width:120px;
+    height:120px;
+    margin:8px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
